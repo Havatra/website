@@ -293,7 +293,7 @@ span.valign {
   border-bottom: 1px solid #ddd;
 }
 .masonry-grid .item .description h2, .masonry-grid .item .description h3 { margin: 5px 0 5px 0;}
-.masonry-grid .item .description p { color: #888; }
+.masonry-grid .item .description p { color: #888; margin:0;}
 
 .overlay {
   position: absolute;
@@ -575,6 +575,8 @@ span.itsCS {
   #footerElem1 { float:none; width:100%; text-align:center;}
   #footerElem2 { float:none; width:100%; text-align:center; padding-top: 0px;}
   .social-media a { padding: 0 2px;}
+  .gridder{margin-bottom:0}
+  .griddest{float:left;width:100%}
 }
 
 @media(max-width:638px){
@@ -619,6 +621,14 @@ span.itsCS {
   color:#878787;
   cursor:pointer;
 }
+
+.gridder{
+  float:left;
+  width:100%;
+  margin-bottom:16px;
+}
+
+
 
 input[type=radio]{display:none;}
 #toggle-00[type=radio]:checked + #heart{display:inline-block}
